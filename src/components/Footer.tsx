@@ -43,9 +43,7 @@ export default function Footer(){
         <div className="mt-16 flex flex-row justify-between border-y border-white py-4">
             <div className="flex flex-row items-center">
                 <div className="border-r border-white pr-4">
-                    <div className="p-4 bg-orange">
-                        <Image src={logo} alt="Target Express Holdings Logo" className="w-20 md:w-10" placeholder="blur"/>  
-                    </div>
+                        <Image src={logo} alt="Target Express Holdings Logo" className="w-28 md:w-16" placeholder="blur"/>  
                 </div>
                <div className="ml-4">
                <p className="headingFont text-white text-xs md:text-sm lg:text-base">Most Reliable Courier Company.</p>
