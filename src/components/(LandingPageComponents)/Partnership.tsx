@@ -39,57 +39,56 @@ const Partnership = () => {
           },
         }}
       ><SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={mainLogo} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={mainLogo} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={revoult} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={revoult} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={binance} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={binance} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={ecolab} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={ecolab} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={konami} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={konami} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={malta} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={malta} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={remington} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={remington} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={adidas} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={adidas} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={mainLogo} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={mainLogo} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={revoult} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={revoult} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={binance} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={binance} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={ecolab} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={ecolab} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={konami} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={konami} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={malta} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={malta} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={adidas} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={adidas} alt="Logo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image  className="w-12 sm:w-14 md:w-16 xl:w-20" src={remington} alt="Logo" />
+        <Image  className="w-16 sm:w-18 md:w-20 xl:w-24" src={remington} alt="Logo" />
       </SwiperSlide>
       </Swiper>
       
-
-      <h4 className="text-blue py-10 text-center text-sm font-bold md:text-base">
+      <h4 className="text-blue my-14 text-center text-sm font-bold md:text-base">
         Trusted By
       </h4>
     </main>

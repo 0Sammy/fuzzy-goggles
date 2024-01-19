@@ -58,8 +58,7 @@ const AskedQuestion = () => {
               </AccordionTrigger>
               <AccordionContent>
                 We operate globally, serving a wide range of regions. Whether
-                you need shipping services locally or internationally, United
-                Traverse has you covered.
+                you need shipping services locally or internationally, Target Express Holdings has you covered.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
@@ -76,7 +75,7 @@ const AskedQuestion = () => {
                   Contact Us{" "}
                 </Link>{" "}
                 page on our website or via email at{" "}
-                <span className="underline">support@unitedtraverse.com</span>.
+                <span className="underline">support@targetexpressholdings.com</span>.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
@@ -97,7 +96,7 @@ const AskedQuestion = () => {
                 If you&apos;re interested in partnership or affiliation
                 opportunities, please contact our business development team at 
                   {" "}<span className="underline">
-                  partnerships@unitedtraverse.com
+                  partnerships@targetexpressholdings.com
                 </span>
                 .
               </AccordionContent>
@@ -114,8 +113,7 @@ const AskedQuestion = () => {
             </AccordionItem>
             <AccordionItem value="item-8">
               <AccordionTrigger>
-                Are there restrictions on items that can be shipped with United
-                Traverse?
+                Are there restrictions on items that can be shipped with Target Express Holdings?
               </AccordionTrigger>
               <AccordionContent>
                 Yes, certain items may be restricted or require special
@@ -137,8 +135,7 @@ const AskedQuestion = () => {
             </AccordionItem>
             <AccordionItem value="item-10">
               <AccordionTrigger>
-                Can I request a quote for shipping services from United
-                Traverse?
+                Can I request a quote for shipping services from Target Express Holdings?
               </AccordionTrigger>
               <AccordionContent>
                 Absolutely! You can easily request a quote by filling out the
