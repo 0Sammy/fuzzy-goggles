@@ -31,6 +31,7 @@ model Package {
   length                Float
   width                 Float
   height                Float
+  imgSrc                String
   deliveryRequiredDate  String
   estimatedDeliveryDate String
   statusChanges         PackageStatusChange[]

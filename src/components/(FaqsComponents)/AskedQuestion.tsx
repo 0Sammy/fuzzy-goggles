@@ -27,10 +27,10 @@ const AskedQuestion = () => {
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger>
-                What services does United Traverse offer?
+                What services does Target Express Holdings offer?
               </AccordionTrigger>
               <AccordionContent>
-                United Traverse provides comprehensive courier shipping
+                Target Express Holdings provides comprehensive courier shipping
                 services, including air freight, ocean freight, road freight,
                 and specialized services like medical couriers and legal
                 couriers.
@@ -38,7 +38,7 @@ const AskedQuestion = () => {
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>
-                How can I track my shipment with United Traverse?
+                How can I track my shipment with Target Express Holdings?
               </AccordionTrigger>
               <AccordionContent>
                 You can easily track your shipment by using the tracking number
@@ -54,7 +54,7 @@ const AskedQuestion = () => {
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>
-                What regions does United Traverse serve?
+                What regions does Target Express Holdings serve?
               </AccordionTrigger>
               <AccordionContent>
                 We operate globally, serving a wide range of regions. Whether
@@ -64,7 +64,7 @@ const AskedQuestion = () => {
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>
-                How can I contact United Traverse customer support?
+                How can I contact Target Express Holdings customer support?
               </AccordionTrigger>
               <AccordionContent>
                 For any inquiries or assistance, you can reach our customer
@@ -81,7 +81,7 @@ const AskedQuestion = () => {
             </AccordionItem>
             <AccordionItem value="item-5">
               <AccordionTrigger>
-                What types of packaging does United Traverse recommend?
+                What types of packaging does Target Express Holdings recommend?
               </AccordionTrigger>
               <AccordionContent>
                 We recommend using sturdy and secure packaging to ensure the
@@ -91,7 +91,7 @@ const AskedQuestion = () => {
             </AccordionItem>
             <AccordionItem value="item-6">
               <AccordionTrigger>
-                How can I become a partner or affiliate with United Traverse?
+                How can I become a partner or affiliate with Target Express Holdings?
               </AccordionTrigger>
               <AccordionContent>
                 If you&apos;re interested in partnership or affiliation
@@ -104,10 +104,10 @@ const AskedQuestion = () => {
             </AccordionItem>
             <AccordionItem value="item-7">
               <AccordionTrigger>
-                What payment methods does United Traverse accept?
+                What payment methods does Target Express Holdings accept?
               </AccordionTrigger>
               <AccordionContent>
-                United Traverse accepts a variety of payment methods, including
+                Target Express Holdings accepts a variety of payment methods, including
                 major credit cards, PayPal, and bank transfers. Details can be
                 found in the Payment Options section.
               </AccordionContent>
@@ -125,7 +125,7 @@ const AskedQuestion = () => {
             </AccordionItem>
             <AccordionItem value="item-9">
               <AccordionTrigger>
-                How does United Traverse ensure the security of sensitive
+                How does Target Express Holdings ensure the security of sensitive
                 shipments?
               </AccordionTrigger>
               <AccordionContent>

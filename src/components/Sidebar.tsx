@@ -14,6 +14,7 @@ import { LuLogOut } from "react-icons/lu";
 import { AiOutlineCloseSquare } from "react-icons/ai";
 import { LuMenuSquare } from "react-icons/lu";
 import { IoMdContact } from "react-icons/io";
+import { MdDelete } from "react-icons/md";
 
 const Sidebar = () => {
     const pathName = usePathname()
@@ -57,6 +58,13 @@ const Sidebar = () => {
             className={`${pathName === "/admin/quote" ? "text-orange -translate-y-2 translate-x-2" : "text-white"} flex items-center gap-x-3 rounded-md p-4 text-sm  duration-500 hover:-translate-y-2 hover:translate-x-2 hover:text-orange hover:underline focus:-translate-y-2 focus:translate-x-2 focus:text-orange active:text-orange md:text-base`}
           >
             <FaFileSignature size={24} /> Quotes
+          </Link>
+          <Link
+            href="/admin/delete"
+            prefetch
+            className={`${pathName === "/admin/delete" ? "text-orange -translate-y-2 translate-x-2" : "text-white"} flex items-center gap-x-3 rounded-md p-4 text-sm  duration-500 hover:-translate-y-2 hover:translate-x-2 hover:text-orange hover:underline focus:-translate-y-2 focus:translate-x-2 focus:text-orange active:text-orange md:text-base`}
+          >
+            <MdDelete size={24} /> Delete Tracking
           </Link>
         </div>
         <button
@@ -116,6 +124,13 @@ const Sidebar = () => {
             className={`${pathName === "/admin/quote" ? "text-orange -translate-y-2 translate-x-2" : "text-white"} flex items-center gap-x-3 rounded-md p-4 text-sm  duration-500 hover:-translate-y-2 hover:translate-x-2 hover:text-orange hover:underline focus:-translate-y-2 focus:translate-x-2 focus:text-orange active:text-orange md:text-base`}
           >
             <FaFileSignature size={24} /> Quotes
+          </Link>
+          <Link
+            href="/admin/delete"
+            prefetch
+            className={`${pathName === "/admin/delete" ? "text-orange -translate-y-2 translate-x-2" : "text-white"} flex items-center gap-x-3 rounded-md p-4 text-sm  duration-500 hover:-translate-y-2 hover:translate-x-2 hover:text-orange hover:underline focus:-translate-y-2 focus:translate-x-2 focus:text-orange active:text-orange md:text-base`}
+          >
+            <MdDelete size={24} /> Delete Tracking
           </Link>
             </div>
             <button

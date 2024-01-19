@@ -19,8 +19,8 @@ const initialState: InitialStateProps = {
 
 const Contact = () => {
   //Copying of the emails states and variables
-  const supportEmail = "Support@unitedtraverse.com";
-  const partnershipEmail = "Partnership@unitedtraverse.com";
+  const supportEmail = "Support@targetexpressholdings.com";
+  const partnershipEmail = "Partnership@targetexpressholdings.com";
   const [supportCopied, setSupportCopied] = useState<boolean>(false);
   const [partnershipCopied, setPartnershipCopied] = useState<boolean>(false);
   const [show, setShow] = useState<boolean>(false);
@@ -152,7 +152,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          <div className="flex h-60 w-80 flex-col justify-center bg-orange px-4 text-white md:w-96 md:px-8">
+          <div className="flex h-60 w-80 flex-col justify-center bg-orange px-4 text-white md:w-96 lg:w-[30rem] md:px-8">
             <p className="text-xs font-semibold md:text-sm">
               For Partnership Contact
             </p>
@@ -165,10 +165,10 @@ const Contact = () => {
               </div>
               <div>
                 <h1
-                  className="cursor-grabbing text-base font-bold md:text-lg"
+                  className="cursor-grabbing text-[0.8rem] md:text-base font-bold lg:text-lg"
                   onClick={handleCopyPartnership}
                 >
-                  Partnership@unitedtraverse.com
+                  Partnership@targetexpressholdings.com
                 </h1>
                 {partnershipCopied && (
                   <p className="text-xs">Copied to clipboard!</p>
@@ -187,10 +187,10 @@ const Contact = () => {
               </div>
               <div>
                 <h1
-                  className="cursor-grabbing text-base font-bold md:text-lg"
+                  className="cursor-grabbing text-[0.8rem] md:text-base font-bold lg:text-lg"
                   onClick={handleCopySupport}
                 >
-                  Support@unitedtraverse.com
+                  Support@targetexpressholdings.com
                 </h1>
                 {supportCopied && (
                   <p className="text-xs">Copied to clipboard!</p>

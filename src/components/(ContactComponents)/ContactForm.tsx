@@ -85,7 +85,7 @@ const ContactForm = () => {
                 <MdEmail size={30} className="text-orange"/>
                 <div>
                     <p className="text-lg font-bold md:text-xl">Email</p>
-                    <p className="text-xs md:text-sm mt-1">Contactus@unitedtraverse.com</p>
+                    <p className="text-xs md:text-sm mt-1">Contactus@targetexpressholdings.com</p>
                 </div>
             </div>
             <div className="flex gap-x-3 rounded-md border border-blue p-4 shrink-0">

@@ -6,6 +6,7 @@ import { toast } from "sonner";
 import { makeApiRequest } from "@/lib/apiUtils";
 //Import Icons
 import { RxCross1 } from "react-icons/rx";
+import ImageUpload from "./ImageUpload";
 
 //Types
 type OrderDetailsProps = {
@@ -21,6 +22,7 @@ type InitialProps = {
   weight: number;
   width: number;
   height: number;
+  imgSrc: string;
   deliveryRequiredDate: string;
   statusChanges: object;
   estimatedDeliveryDate: string;
@@ -37,6 +39,7 @@ const initialState: InitialProps = {
   weight: 0.0,
   width: 0.0,
   height: 0.0,
+  imgSrc: "",
   deliveryRequiredDate: "",
   statusChanges: {},
   estimatedDeliveryDate: "",
@@ -83,6 +86,15 @@ const OrderCreation = ({ onClose }: OrderDetailsProps) => {
   const handleFormReset = () => {
     setState(initialState);
   };
+
+//Function for the image upload
+const setCustomValue = (id:any, value:any) => {
+  setState((prevValues) => ({
+    ...prevValues,
+    [id]: value,
+  }));
+};
+
   //Submit function
   const onSubmit = async (event: FormEvent) => {
     event.preventDefault();
@@ -324,6 +336,9 @@ const OrderCreation = ({ onClose }: OrderDetailsProps) => {
               id="estimatedDeliveryDate"
               className="mt-2 w-full rounded-md border border-black bg-white p-2 text-black focus:outline-orange md:p-3"
             />
+          </div>
+          <div className="mt-4">
+            <ImageUpload value={state.imgSrc} onChange={(value) => setCustomValue('imgSrc',value)}/>
           </div>
           <div className="mt-8">
             <input

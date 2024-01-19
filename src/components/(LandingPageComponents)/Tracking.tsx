@@ -1,9 +1,14 @@
+"use client"
+import { useState } from "react";
 import { formatStatus } from "@/lib/status";
 import { formatDateTime } from "@/lib/dateTimeUtils";
 //Import Needed Icons
 import { FaCircleCheck } from "react-icons/fa6";
 import { RxCrossCircled } from "react-icons/rx";
 import { GoCheckCircle } from "react-icons/go";
+
+//Import Components
+import ImageComponent from "../(AdminComponents)/Image";
 
 type trackingProps = {
     trackingID: string,
@@ -12,6 +17,7 @@ type trackingProps = {
 }
 const Tracking = ({trackingID, packageTracking, onHideModal }: trackingProps) => {
 
+    const [seeImage, setSeeImage] = useState<boolean>(false)
     const statusChangesArray = packageTracking.statusChanges;
     //Get Each Statuses
     const firstStatus = statusChangesArray[0]
@@ -20,8 +26,11 @@ const Tracking = ({trackingID, packageTracking, onHideModal }: trackingProps) =>
     const fourthStatus = statusChangesArray[3]
     const fifthStatus = statusChangesArray[4]
     const lastStatus = statusChangesArray[statusChangesArray.length - 1]?.status;
-
     
+    //Show Image Function
+    const hideImageModal = () => {
+        return setSeeImage((prev) => !prev)
+    }
      return ( 
         <main className="fixed h-screen w-full bg-black bg-opacity-80 flex items-center justify-center z-[70] top-0 left-0">
             <div className="relative w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%] h-[40rem] bg-bgWhite p-4 md:p-8">
@@ -91,6 +100,8 @@ const Tracking = ({trackingID, packageTracking, onHideModal }: trackingProps) =>
                     </div>
                     
                 </div>
+                <p className="text-orange text-sm lg:text-base my-4 cursor-pointer" onClick={hideImageModal}>See Image</p>
+                {seeImage && <ImageComponent imgSrc={packageTracking.imgSrc} hideImageModal={hideImageModal}/>}
             </div>
         </main>
      );

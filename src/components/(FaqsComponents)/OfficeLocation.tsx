@@ -48,7 +48,7 @@ const OfficeLocation = () => {
                   <div>
                     <p className="text-lg font-bold md:text-xl">Email</p>
                     <p className="text-xs md:text-sm mt-1">
-                      Info@unitedtraverse.com
+                      Info@targetexpressholdings.com
                     </p>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ const OfficeLocation = () => {
                   <div>
                     <p className="text-lg font-bold md:text-xl">Email</p>
                     <p className="text-xs md:text-sm mt-1">
-                      Info@unitedtraverse.com
+                      Info@targetexpressholdings.com
                     </p>
                   </div>
                 </div>

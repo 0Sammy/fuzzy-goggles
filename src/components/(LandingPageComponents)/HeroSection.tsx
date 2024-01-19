@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function HeroSection(){
     return(
-        <main className="relative bg-[url('../../public/images/b4.jpg')] pt-[8rem] pb-[12rem] bg-cover object-center bg-center text-white selection:bg-orange selection:text-white">
-            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <main className="relative bg-[url('../../public/images/b4.jpeg')] pt-[8rem] pb-[12rem] bg-cover object-center bg-center text-white selection:bg-orange selection:text-white">
+            <div className="absolute inset-0 bg-black bg-opacity-70"></div>
             <div className="relative px-4 sm:px-10 md:px-12 lg:px-14">
                 <div className="w-full md:w-1/2 lg:w-[45%] flex flex-col justify-center">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-[620]">Your Gateway to any</h1>
