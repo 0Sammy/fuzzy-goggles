@@ -92,8 +92,7 @@ const ContactForm = () => {
                 <HiLocationMarker size={30} className="text-orange"/>
                 <div>
                     <p className="text-lg font-bold md:text-xl">Address</p>
-                    <p className="text-xs md:text-sm mt-1">112 Commerce Parkway Suite 405 Metropolitan City,
-                      United States.</p>
+                    <p className="text-xs md:text-sm mt-1">422 Hazelwood Logistics Center Dr, Hazelwood, MO 63042, USA.</p>
                 </div>
             </div>
           </div>

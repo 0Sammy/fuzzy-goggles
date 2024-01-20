@@ -80,7 +80,7 @@ const OfficeLocation = () => {
                       <BiSolidHomeHeart size={26} className="text-orange1 shrink-0" />
                       <p className="text-sm font-semibold text-orange1 sm:text-base md:text-lg lg:text-xl">Address</p>
                     </div>
-                    <p className="text-xs md:text-sm text-white mt-4">R. Mário Enzio Pasqualucci, 300 - Chácara Santo Antônio, São Paulo - SP, 04711-090, Brazil</p>
+                    <p className="text-xs md:text-sm text-white mt-4">R.Mário Enzio Pasqualucci, 300-Chácara Santo Antônio, São Paulo-Brazil</p>
                   </div>
                   <div className="h-[49%] border border-white mt-2 rounded-md flex flex-col gap-y-2 p-4">
                     <div className="flex gap-x-1">
